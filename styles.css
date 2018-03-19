@@ -1,0 +1,19 @@
+*{
+  border: red solid 1px;
+}
+video {
+  width: 100%;
+}
+p{
+  font-size: 20px;
+  line-height: 2;
+}
+div{
+  width: 90%;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  div{
+    width: 60%;
+  }
+}

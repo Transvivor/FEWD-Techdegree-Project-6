@@ -1,6 +1,9 @@
+// Create highlighting effect
+
+
 var transcript = document.getElementById("bodyWrapper").getElementsByTagName("span");
 var video = document.getElementsByTagName("video")[0];
-
+var firstlink = document.getElementsByTagName('a')[0];
 
 video.addEventListener("timeupdate", function() {
 for (var i = 0; i < transcript.length; i++) {
@@ -16,3 +19,10 @@ for (var i = 0; i < transcript.length; i++) {
       }
     }
 });
+
+//
+firstlink.addEventListener("click", function (event) {
+    event.preventDefault();
+    myvideo.currentTime = 0.240;
+    myvideo.play();
+}, false);

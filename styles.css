@@ -13,10 +13,15 @@ p {
 }
 #bodyWrapper{
   width: 80%;
-  max-width: 600px;
   margin:0 auto;
 }
 
 .current {
   color: orange;
+}
+
+@media (min-width: 700px){
+  #bodyWrapper{
+    max-width: 600px;
+  }
 }

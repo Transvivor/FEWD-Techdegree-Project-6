@@ -1,4 +1,22 @@
 .videoWrapper{
-  height: 600px;
-  width: 100%;
+  height: auto;
+  min-height: 200px;
+  min-width: 300px;
+  max-width: 600px;
+  width: auto;
+  margin:0 auto;
+}
+p {
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 700;
+}
+.bodyWrapper{
+  width: 80%;
+  max-width: 600px;
+  margin:0 auto;
+}
+
+.current {
+  color: orange;
 }

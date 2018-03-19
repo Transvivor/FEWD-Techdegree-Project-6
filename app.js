@@ -2,7 +2,7 @@ var transcript = document.getElementById("bodyWrapper").getElementsByTagName("sp
 var video = document.getElementsByTagName("video")[0];
 
 
-video.addEventListener("update", function() {
+video.addEventListener("timeupdate", function() {
 for (var i = 0; i < transcript.length; i++) {
   var now = video.currentTime;
   console.log(video.currentTime);

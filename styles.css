@@ -11,7 +11,7 @@ p {
   line-height: 2;
   font-weight: 700;
 }
-.bodyWrapper{
+#bodyWrapper{
   width: 80%;
   max-width: 600px;
   margin:0 auto;

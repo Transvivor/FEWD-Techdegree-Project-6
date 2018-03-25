@@ -20,7 +20,7 @@ p {
   color: orange;
 }
 
-@media (min-width: 700px){
+@media (min-width: 768px){
   #bodyWrapper{
     max-width: 600px;
   }
